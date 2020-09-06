@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+
+  "name": "DKU Video Downloader",
+  "description": "DKU NLMS Video Downloader",
+  "version": "1.0",
+
+  "browser_action": {
+    "name": "DKU Video Downloader",
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": ["activeTab", "downloads", "<all_urls>"]
+}

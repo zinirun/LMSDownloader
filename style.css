@@ -1,0 +1,41 @@
+* {
+  font-size: 12px;
+  font-weight: 600;
+  text-align: center;
+}
+
+#wrapper {
+  width: 130px;
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  margin-top: 5px;
+  border: none;
+  border-radius: 6px;
+  background: dodgerblue;
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 0.4rem 0.6rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background: rgb(0, 89, 255);
+}
+
+#help_wrapper {
+  text-align: right;
+}
+
+#help_bt {
+  font-size: 12px;
+  padding: 0.2rem 0.3rem;
+  background: rgb(136, 136, 136);
+}
+
+#help_bt:hover {
+  background: rgb(109, 109, 109);
+}
