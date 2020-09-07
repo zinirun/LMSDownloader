@@ -4,6 +4,7 @@ const videoBt = document.querySelector('#video_download_bt');
 const view = document.querySelector('#wrapper');
 const errmsg_scan = '이러닝이 아닙니다😢';
 const errmsg_vid = '강의가 아닙니다😢';
+const errmsg_vid_sample = '로딩 영상을 넘겨주세요!';
 
 document.querySelector('#help_bt').addEventListener('click', () => {
   window.open('./index.html');
@@ -65,8 +66,11 @@ videoBt.addEventListener('click', () => {
         vidUrl[0].length < 7 ||
         !vidUrl[0].includes('dankook.common')
       ) {
-        console.log(vidUrl[0]);
-        view.innerHTML += `<div style="margin-top:5px; color: crimson;">${errmsg_vid}</div>`;
+        if (vidUrl[0].includes('preloader')) {
+          view.innerHTML += `<div style="margin-top:5px; color: crimson;">${errmsg_vid_sample}</div>`;
+        } else {
+          view.innerHTML += `<div style="margin-top:5px; color: crimson;">${errmsg_vid}</div>`;
+        }
       } else {
         chrome.runtime.sendMessage({
           action: 'download',
