@@ -6,7 +6,7 @@ const errmsg_scan = '이러닝이 아닙니다😢';
 const errmsg_vid = '강의가 아닙니다😢';
 
 document.querySelector('#help_bt').addEventListener('click', () => {
-  window.open('/howtouse/index.html');
+  window.open('./index.html');
 });
 
 scanOneBt.addEventListener('click', () => {
