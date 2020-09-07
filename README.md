@@ -16,4 +16,4 @@
 
 버튼 하나로 이러닝 강의컨텐츠에서 바로 다운받을 수 있게 만들고 싶었지만, 실제 강의 동영상은 4개의 `iframe`으로 감싸져 있고, 마지막 `iframe`은 외부의 접근을 막아놓아서 `이러닝 스캔` 후 `동영상 다운로드`의 로직을 사용할 수 밖에 없었습니다.
 
-더 나은 방식이나 새로운 아이디어가 있다면 코드를 작성하여 Pull Request를 보내주시거나, 개발자가 아니시라면 [여기](https://zinirun.github.io/2020/09/07/project-dku-lms-downloader/)에 댓글을 달아주세요.
+😀 더 나은 방식이나 새로운 아이디어가 있다면 코드를 작성하여 Pull Request를 보내주시거나, 개발자가 아니시라면 [여기](https://zinirun.github.io/2020/09/07/project-dku-lms-downloader/)에 댓글을 달아주세요.
