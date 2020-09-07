@@ -6,7 +6,7 @@
 ![dankook-logo](icon.png)
 
 ## ✔️ 사용법
-[사용법/제작자](https://github.com/zinirun/LMSDownloader/howtouse/index.html) 문서를 참조하세요.
+[사용법/제작자](https://github.com/zinirun/LMSDownloader/blob/master/howtouse/index.html) 문서를 참조하세요.
 
 ## ✔️ 제작 이유
 새로운 이러닝의 강의는 열람 기간이 정해져 있거나, 완강하지 않으면 앞의 내용을 볼 수 없는 등 불편함이 많아서 마음 편하게 강의 동영상을 다운로드 받아 놓으려고 제작했습니다.
