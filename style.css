@@ -9,7 +9,7 @@ body {
 }
 
 #wrapper {
-  width: 130px;
+  width: 130px !important;
   display: flex;
   flex-direction: column;
 }
@@ -23,7 +23,7 @@ button {
   color: white;
   font-size: 15px;
   font-weight: 500;
-  padding: 0.4rem 0.6rem;
+  padding: 0.3rem 0.6rem;
   cursor: pointer;
 }
 
