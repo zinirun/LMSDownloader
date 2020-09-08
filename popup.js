@@ -1,12 +1,37 @@
 const scanOneBt = document.querySelector('#clms_scan_one_bt');
 const scanTwoBt = document.querySelector('#clms_scan_two_bt');
 const videoBt = document.querySelector('#video_download_bt');
+const helpWrapper = document.querySelector('#help_wrapper');
+const helpBt = document.querySelector('#help_bt');
+
+allButtons = [scanOneBt, scanTwoBt, videoBt, helpWrapper];
+
 const view = document.querySelector('#wrapper');
-const errmsg_scan = '이러닝이 아닙니다😢';
+const errmsg_isNotDankook = '단국대학교 이러닝에서만<br />사용할 수 있습니다😢';
+const errmsg_scan = '스캔된 강의가 없습니다😢';
 const errmsg_vid = '강의가 아닙니다😢';
 const errmsg_vid_sample = '로딩 영상을 넘겨주세요!';
 
-document.querySelector('#help_bt').addEventListener('click', () => {
+window.addEventListener('load', () => {
+  chrome.tabs.executeScript(
+    {
+      code: 'window.location.hostname',
+    },
+    (userUrl) => {
+      if (!userUrl[0].includes('dankook')) {
+        allButtons.map((bt) => (bt.style.display = 'none'));
+        view.innerHTML += `<div id="msg_isNotDankook" style="margin:5px 0; color: crimson; display: block;">${errmsg_isNotDankook}</div>`;
+      } else {
+        allButtons.map((bt) => (bt.style.display = 'block'));
+        if (document.querySelector('#msg_isNotDankook')) {
+          document.querySelector('#msg_isNotDankook').style.display = 'none';
+        }
+      }
+    },
+  );
+});
+
+helpBt.addEventListener('click', () => {
   window.open('./index.html');
 });
 
