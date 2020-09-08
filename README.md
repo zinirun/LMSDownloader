@@ -2,7 +2,8 @@
 # LMSDownloader
 🐻 단국대학교 이러닝 다운로더
 
-단국대학교 이러닝 강의 컨텐츠를 다운로드할 수 있는 <img src="https://www.zotero.org/static/images/icons/chrome-icon-128%402x.png" width=20> 크롬 확장 프로그램입니다.
+- 단국대학교 이러닝 강의 컨텐츠를 다운로드할 수 있는 <img src="https://www.zotero.org/static/images/icons/chrome-icon-128%402x.png" width=20> 크롬 확장 프로그램입니다.
+- LearningX 기반의 타학교 이러닝 시스템에 약간의 코드 변형시 적용할 수 있을 것 같으며 fork 후 배포 환영합니다.
 
 
 ![dankook-logo](icon.png)
