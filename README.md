@@ -11,6 +11,7 @@
 > 본 프로그램은 단국대학교/관련 기관과 관련이 없으며, 단국대학교가 보증하지 않았습니다. 단순히 학우들의 원만한 이러닝 학습을 위한 프로그램이며 어떠한 수익도 창출하지 않음을 알려드립니다.
 
 ## ✔️ 사용 방법
+[Chrome 웹 스토어 다운로드](https://chrome.google.com/webstore/detail/dku-video-downloader/defdpphnlpilkneopmaafiakomkflpgj?hl=ko)
 [사용법/제작자](https://zinirun.github.io/LMSDownloader/index.html) 문서를 참조하세요.
 
 ## ✔️ 제작 동기
