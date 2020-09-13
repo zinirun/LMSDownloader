@@ -67,3 +67,13 @@ a:hover {
   background: #888;
   border-radius: 5px;
 }
+
+input {
+  width: 120px;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 11px;
+}
+
+hr {
+  border: 1px solid #ddd;
+}

@@ -4,6 +4,7 @@ chrome.runtime.onMessage.addListener((request) => {
       try {
         chrome.downloads.download({
           url: request.source,
+          filename: request.filename,
         });
       } catch (err) {
         alert(`오류: ${err.message}`);
