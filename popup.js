@@ -78,11 +78,7 @@ function loadDownload() {
       code: 'document.querySelector("video").src',
     },
     (vidUrl) => {
-      if (
-        chrome.runtime.lastError ||
-        vidUrl[0].length < 7 ||
-        !vidUrl[0].includes('dankook.common')
-      ) {
+      if (chrome.runtime.lastError || vidUrl[0].length < 7 || !vidUrl[0].includes('dankook')) {
         if (vidUrl[0].includes('preloader')) {
           view.innerHTML += `<div style="margin-top:5px; color: crimson;">${errmsg_vid_sample}</div>`;
         } else {

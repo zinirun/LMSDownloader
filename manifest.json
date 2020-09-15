@@ -1,9 +1,9 @@
 {
   "manifest_version": 2,
   "name": "DKU Video Downloader",
-  "version": "0.2",
+  "version": "0.3",
   "author": "zini",
-  "description": "단국대학교 이러닝 강의 다운로더",
+  "description": "클릭 몇 번으로 간편하게 강의를 저장하고 복습하세요",
   "browser_action": {
     "name": "DKU Video Downloader",
     "default_icon": "icon.png",

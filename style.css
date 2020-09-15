@@ -8,6 +8,10 @@ body {
   text-align: center;
 }
 
+span {
+  user-select: none;
+}
+
 #wrapper {
   width: 130px !important;
   display: flex;
@@ -46,6 +50,13 @@ button:hover {
   color: #555;
 }
 
+#version {
+  margin-left: -3px;
+  font-size: 8px;
+  font-weight: 500;
+  font-style: italic;
+  color: #bbb;
+}
 a {
   text-decoration: none;
   color: dodgerblue;
