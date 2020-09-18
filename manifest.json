@@ -3,10 +3,10 @@
   "name": "DKU Video Downloader",
   "version": "0.3",
   "author": "zini",
-  "description": "클릭 몇 번으로 간편하게 강의를 저장하고 복습하세요",
+  "description": "클릭 몇 번으로 간편하게 이러닝 강의를 저장하고 복습하세요!",
   "browser_action": {
     "name": "DKU Video Downloader",
-    "default_icon": "icon.png",
+    "default_icon": "icon-128.png",
     "default_popup": "popup.html"
   },
   "content_scripts": [
@@ -20,5 +20,5 @@
     "scripts": ["background.js"]
   },
   "permissions": ["activeTab", "downloads", "*://*/*"],
-  "icons": { "16": "icon.png", "48": "icon.png", "128": "icon.png" }
+  "icons": { "16": "icon-16.png", "48": "icon-48.png", "128": "icon-128.png" }
 }
