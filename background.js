@@ -1,6 +1,6 @@
 chrome.runtime.onMessage.addListener((request) => {
   if (request.action === 'download') {
-    if (request.source.includes('dankook.commonscdn')) {
+    if (request.source.includes('dankook')) {
       try {
         chrome.downloads.download({
           url: request.source,
