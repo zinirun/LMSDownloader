@@ -2,7 +2,7 @@
 # LMSDownloader
 🐻 단국대학교 이러닝 다운로더
 
-![dankook-logo](icon.png)
+![dankook-logo](https://github.com/zinirun/LMSDownloader/blob/master/icon-128.png)
 (본 로고 이미지와 프로그램 아이콘은 [단국대학교](http://www.dankook.ac.kr/web/kor/-ui-)의 저작물입니다.)
 
 - 단국대학교 이러닝 강의 컨텐츠를 다운로드할 수 있는 <img src="https://www.zotero.org/static/images/icons/chrome-icon-128%402x.png" width=20> 크롬 확장 프로그램입니다.
